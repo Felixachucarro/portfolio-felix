@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Félix Achucarro — Multimedia designer</title>
+  <meta name="description" content="Félix Achucarro, multimedia designer in Buenos Aires: brand systems, e-learning and 3D. Case studies for Scania, Visorix, Frío Creativos and more.">
+  <meta name="theme-color" content="#24503C">
+  <meta property="og:title" content="Félix Achucarro — Multimedia designer">
+  <meta property="og:description" content="Brand systems, learning experiences and 3D — designed to work and built in code.">
+  <meta property="og:image" content="assets/img/frio-id-cover.jpg">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+  <header class="site-head">
+    <div class="wrap site-head__in">
+      <a class="brand" href="#/" aria-label="Félix Achucarro — home">
+        <span class="mono" data-mono></span>
+        <span class="brand__name">Félix Achucarro</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#/" data-nav="work" data-i18n="nav.work">Work</a>
+        <a href="#/archive" data-nav="archive" data-i18n="nav.archive">Archive</a>
+        <a href="#/about" data-nav="about" data-i18n="nav.about">About</a>
+        <a href="#contact" data-nav="contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="es" aria-pressed="false">ES</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1"></main>
+
+  <footer class="site-foot" id="contact">
+    <div class="wrap">
+      <div class="folio folio--inv"><span>FELIX</span><span data-i18n="nav.contact">Contact</span><span>GMT-3</span></div>
+      <div class="foot__grid">
+        <div>
+          <h2 class="foot__title" data-i18n="contact.title">Let’s work together.</h2>
+          <p class="foot__lead" data-i18n="contact.lead"></p>
+          <a class="foot__mail" data-mail href="#"></a>
+          <ul class="foot__links" data-links></ul>
+        </div>
+        <span class="mono mono--xl" data-mono aria-hidden="true"></span>
+      </div>
+      <div class="foot__base">
+        <span>© 2026 Félix Achucarro</span>
+        <span data-i18n="foot.identity">Identity: FELIX, chapter I</span>
+        <a href="#top" data-top data-i18n="foot.top">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lb" hidden role="dialog" aria-modal="true" aria-label="Image viewer">
+    <div class="lb__bar">
+      <span class="lb__count"></span>
+      <button type="button" class="lb__btn" data-lb="close" data-i18n="lb.close">Close</button>
+    </div>
+    <figure class="lb__stage"><div class="lb__media"></div><figcaption class="lb__cap"></figcaption></figure>
+    <button type="button" class="lb__nav lb__nav--prev" data-lb="prev" aria-label="Previous">←</button>
+    <button type="button" class="lb__nav lb__nav--next" data-lb="next" aria-label="Next">→</button>
+  </div>
+
+  <script src="js/content.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
