@@ -33,7 +33,7 @@ window.FELIX = window.FELIX || {};
     'home.cta.work': T('See selected work', 'Ver trabajos'),
     'home.cta.cv': T('Download CV', 'Descargar CV'),
     'home.cases': T('Selected work', 'Trabajos seleccionados'),
-    'home.cases.note': T('Seven case studies, from brief to result.', 'Siete casos, del encargo al resultado.'),
+    'home.cases.note': T('Eight case studies, from brief to result.', 'Ocho casos, del encargo al resultado.'),
     'home.archive': T('From the archive', 'Del archivo'),
     'home.archive.note': T('Brands, covers, motion, websites and trains.', 'Marcas, portadas, animación, sitios y trenes.'),
     'home.archive.all': T('Open the archive', 'Abrir el archivo'),
@@ -102,6 +102,52 @@ window.FELIX = window.FELIX || {};
         p: T('The client approved the designs — they liked them a lot — and went on to create and adapt new infographics from these templates.', 'El cliente aprobó los diseños — le gustaron mucho — y siguió creando y adaptando nuevas infografías a partir de estas plantillas.')
       },
       note: T('Images adapted for the portfolio to respect the client’s confidentiality.', 'Imágenes adaptadas para el portfolio, respetando la confidencialidad del cliente.')
+    },
+
+    {
+      slug: 'entornos',
+      client: 'Entornos Educativos',
+      title: T('A clear voice', 'Una voz clara'),
+      short: T('Entornos Educativos · Identity, templates and Moodle', 'Entornos Educativos · Identidad, plantillas y Moodle'),
+      summary: T('Not one project but a chain of decisions: from designing custom Moodle courses for multinationals to helping shape the visual rules, templates and social voice the team communicates with today.', 'No un proyecto sino una cadena de decisiones: de diseñar cursos a medida en Moodle para multinacionales a ayudar a construir las reglas visuales, las plantillas y la voz en redes con las que hoy comunica el equipo.'),
+      tags: T('E-learning · Design systems · Brand voice', 'E-learning · Sistemas de diseño · Voz de marca'),
+      cover: I('ent-campus.jpg', 1600, 1110, 'A Moodle campus with course cards shown on a laptop, with a young man holding a phone'),
+      facts: [
+        [T('Company', 'Empresa'), T('Entornos Educativos · ~20 people', 'Entornos Educativos · ~20 personas')],
+        [T('Period', 'Período'), T('2022 — 2026')],
+        [T('Role', 'Rol'), T('Multimedia designer → visual system and communication', 'Diseñador multimedia → sistema visual y comunicación')],
+        [T('Clients', 'Clientes'), T('Scania · Cruz Roja · Aluar · Fate O · La Virginia')],
+        [T('Tools', 'Herramientas'), T('Figma · Moodle · HTML · Canva · Midjourney')]
+      ],
+      sections: [
+        { h: T('The starting point', 'El punto de partida'),
+          p: [T('Entornos designs custom training for organisations and multinational companies on Moodle — from the script to the live course and campus. When I joined in 2022, in a content team of five (project leads, a developer and me in design), the company was growing fast and communication was still finding its shape: there were no shared graphic guidelines or a common voice yet.', 'Entornos diseña capacitaciones a medida para organizaciones y empresas multinacionales en Moodle — del guion al curso y el campus en línea. Cuando entré en 2022, en un área de contenidos de cinco personas (líderes de proyecto, un desarrollador y yo en diseño), la empresa crecía rápido y la comunicación todavía estaba buscando su forma: aún no había lineamientos gráficos compartidos ni una voz en común.')] },
+        { h: T('Custom courses', 'Cursos a medida'),
+          p: [T('A course arrives as a storyboard or as the client’s ideas. I estimate it and make a graphic proposal — and every client brings a completely different brand manual, so the job is adapting fast without losing clarity. More than 60 Moodle courses, for clients like Scania, Cruz Roja, Aluar, Fate O and La Virginia. Entornos also has its own line of about ten demo courses used to sell — I designed the voice and visual system of each one.', 'Un curso llega como storyboard o como ideas del cliente. Lo estimo y hago una propuesta gráfica — y cada cliente trae un manual de marca totalmente distinto, así que el trabajo es adaptarse rápido sin perder claridad. Más de 60 cursos de Moodle, para clientes como Scania, Cruz Roja, Aluar, Fate O y La Virginia. Entornos tiene además su propia línea de unos diez cursos demo que usa para vender: diseñé la voz y el sistema visual de cada uno.')],
+          media: [I('ent-infographic-steps.jpg', 882, 1104, 'Course infographic: four steps of idea evaluation in coral'), I('ent-infographic-timeline.jpg', 882, 1175, 'Course infographic: brainstorming timeline in circles'), I('ent-infographic-map.jpg', 1037, 811, 'Course infographic: radial map around a brain')] },
+        { h: T('A system for people who don’t design', 'Un sistema para quienes no diseñan'),
+          p: [T('The key decision: a library of templates that anyone in the company could use to produce clear corporate documents and course screens, without knowing how to design. Typography, a five-colour palette, icons and a set of misc. elements, then ready-made components — buttons, cards, carousels, accordions, bullets.', 'La decisión clave: una biblioteca de plantillas que cualquier persona de la empresa pudiera usar para producir documentos corporativos y pantallas de curso claros, sin saber diseñar. Tipografía, una paleta de cinco colores, íconos y misceláneas, y después componentes listos — botones, tarjetas, carruseles, acordeones, viñetas.')],
+          media: [I('ent-type.jpg', 1600, 900, 'Typography page: Alexandria in bold, semibold and regular'), I('ent-palette.jpg', 1600, 900, 'Five-colour palette: charcoal, grey, coral, navy and light blue'), I('ent-icons.jpg', 1600, 900, 'Line icon set'), I('ent-misc.jpg', 1600, 900, 'Misc. elements: progress rings, controls and counters')] },
+        { h: T('Components and screens', 'Componentes y pantallas'),
+          p: [T('Each component comes with its own example and rule, so whoever builds the course only has to choose the right one for the content: text only, text and image, dense text, video, introduction.', 'Cada componente viene con su ejemplo y su regla, así quien arma el curso solo tiene que elegir el adecuado según el contenido: solo texto, texto e imagen, texto denso, video, introducción.')],
+          media: [I('ent-buttons.jpg', 1600, 900, 'Template: how to use buttons'), I('ent-cards.jpg', 1600, 900, 'Template: cards'), I('ent-carousel.jpg', 1600, 900, 'Template: image carousel'), I('ent-accordion.jpg', 1600, 900, 'Template: accordion'), I('ent-bullets.jpg', 1600, 900, 'Template: bullets'), I('ent-text-only.jpg', 1600, 900, 'Screen template: text only'), I('ent-text-image.jpg', 1600, 900, 'Screen template: text and image'), I('ent-dense-text.jpg', 1600, 900, 'Screen template: dense text with half-screen image'), I('ent-text-video.jpg', 1600, 900, 'Screen template: text and video')] },
+        { h: T('Characters', 'Personajes'),
+          p: [T('A rule for images: real young people interacting with technology, not forced poses or the drawn characters from stock banks. I sped up character creation with AI (Midjourney) so every course could have its own presenters without a photo shoot.', 'Una regla para las imágenes: personas jóvenes reales interactuando con tecnología, no poses forzadas ni los personajes dibujados de los bancos de imágenes. Aceleré la creación de personajes con IA (Midjourney) para que cada curso pudiera tener sus propios presentadores sin una sesión de fotos.')],
+          media: [I('ent-characters.jpg', 1600, 900, 'Character proposal: young people interacting with technology'), I('ent-screen-intro.jpg', 1600, 900, 'Introduction screen with a presenter'), I('ent-screen-video.jpg', 1600, 900, 'Video screen template')] },
+        { h: T('Moodle', 'Moodle'),
+          p: [T('On the platform side I worked in administration: operating plugins, setting up courses, manual and automatic enrolment, product testing and campus configuration — and designing how the campus itself looks.', 'Del lado de la plataforma trabajé en la administración: operación de plugins, configuración de cursos, matriculación manual y automática, testeo de productos y configuración del campus — y el diseño de cómo se ve el campus.')],
+          media: [I('ent-campus-chat.jpg', 1600, 1160, 'Moodle campus with course cards, a grade table and a chat assistant on a laptop'), I('ent-site.jpg', 1600, 900, 'Campus home: all your team’s training in one platform')] },
+        { h: T('The voice on social media', 'La voz en redes'),
+          p: [T('In my last stage I designed the aesthetics and visual rules for the website and social media, and the pieces the company still uses. Content organised by category — memes, who we are, products, news, clients — each with its own colour, real people instead of drawn stock characters, and self-guided Canva templates so the team can publish on its own. The graphic elements evolved from flat, saturated backgrounds (2022) to light backgrounds with fine circles (2024) and full shapes that leave room for photos (2026).', 'En mi última etapa diseñé la estética y las reglas visuales para el sitio web y las redes, y las piezas que la empresa usa hoy. Contenido ordenado por categoría — memes, quiénes somos, productos, novedades, clientes — cada una con su color, personas reales en lugar de personajes dibujados de banco, y plantillas autoguiadas en Canva para que el equipo publique solo. Las misceláneas evolucionaron de fondos plenos y saturados (2022) a fondos claros con círculos finos (2024) y figuras plenas que dejan lugar a la foto (2026).')],
+          media: [I('ent-social-categories.jpg', 1600, 900, 'Social media categories, one colour each'), I('ent-evolution.jpg', 1600, 900, 'Evolution of the graphic elements: 2022, 2024 and 2026')] },
+        { h: T('Continuous improvement', 'Mejora continua'),
+          p: [T('I also took part in continuous improvement circles, presenting projects to reduce ticket preparation times.', 'También participé en círculos de mejora continua, presentando proyectos para reducir los tiempos de preparación de tickets.')] }
+      ],
+      result: {
+        stats: [[T('60+'), T('Moodle courses designed', 'cursos de Moodle diseñados')], [T('~10'), T('demo courses, each with its own voice and visual system', 'cursos demo, cada uno con su propia voz y sistema visual')], [T('2 voices', '2 voces'), T('institutional and social media', 'institucional y en redes')]],
+        p: T('Employees without design training now produce corporate documents with the templates, and the social pieces I designed are the ones the company uses today.', 'Hoy empleados sin formación en diseño producen documentos corporativos con las plantillas, y las piezas para redes que diseñé son las que la empresa usa actualmente.')
+      },
+      note: T('Images shown with authorisation, without the company logo.', 'Imágenes mostradas con autorización, sin el logo de la empresa.')
     },
 
     {
@@ -507,7 +553,7 @@ window.FELIX = window.FELIX || {};
     languages: T('Spanish (native) · English (B2)', 'Español (nativo) · Inglés (B2)')
   };
 
-  FELIX.clients = ['Scania', 'Aluar', 'Fate', 'Cruz Roja Argentina', 'Trenes Argentinos', 'Visorix', 'Canopia', 'Frío Creativos', 'Paul Laureano'];
+  FELIX.clients = ['Scania', 'Aluar', 'Fate', 'Cruz Roja Argentina', 'La Virginia', 'Entornos Educativos', 'Trenes Argentinos', 'Visorix', 'Canopia', 'Frío Creativos', 'Paul Laureano'];
 
   FELIX.contact = {
     email: 'felix.achucarro97@gmail.com',

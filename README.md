@@ -15,7 +15,7 @@ Abre con doble click en `index.html` (no necesita servidor). HTML, CSS y JS sin 
 | Título, descripción para buscadores          | `index.html` |
 
 ## Estructura
-- **Portada** (`#/`): una línea de quién soy, y enseguida los 7 casos.
+- **Portada** (`#/`): una línea de quién soy, y enseguida los 8 casos.
 - **Caso** (`#/work/scania`, `frio-creativos`, `visorix`, `monumental`, `material-rodante`, `canopia`, `felix`): título, resumen, ficha, imagen principal, secciones numeradas con imágenes grandes, resultado en verde, siguiente caso.
 - **Archivo** (`#/archive`, filtros `/brand`, `/web`, `/motion`, `/art`): 17 proyectos más; cada uno se abre en el visor.
 - **Sobre mí** (`#/about`) y **contacto** en el pie de todas las páginas.
