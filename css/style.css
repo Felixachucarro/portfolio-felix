@@ -159,6 +159,8 @@ a:hover > .arrow { transform: translateX(4px); }
 .sec h2 { font-size: clamp(24px, 2.4vw, 34px); position: sticky; top: calc(var(--head-h) + 24px); }
 .sec__body p { font-size: clamp(17px, 1.3vw, 19px); line-height: 1.65; max-width: 62ch; color: #2d2f2c; }
 .sec__body p + p { margin-top: 1em; }
+.sec__inline { margin-top: clamp(24px, 3vw, 40px); max-width: 62ch; }
+.sec__inline .media img { width: 100%; height: auto; }
 .quote { margin: 28px 0 0; padding: 4px 0 4px 22px; border-left: 3px solid var(--green); font-family: var(--f-display); font-weight: 500; font-size: clamp(19px, 1.6vw, 24px); line-height: 1.4; letter-spacing: -0.01em; color: var(--ink); max-width: 44ch; }
 /* Número impar de casos: el primero ocupa todo el ancho */
 .cases > .card:first-child:nth-last-child(odd) { grid-column: 1 / -1; }

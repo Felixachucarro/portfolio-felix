@@ -129,7 +129,7 @@
     const secs = c.sections.map((s, j) => `
       <section class="sec">
         <div><span class="sec__num">${n}.${j + 1}</span><h2>${esc(t(s.h))}</h2></div>
-        <div class="sec__body">${s.p.map(p => `<p>${esc(t(p))}</p>`).join('')}${s.quote ? `<blockquote class="quote">${esc(t(s.quote))}</blockquote>` : ''}</div>
+        <div class="sec__body">${s.p.map(p => `<p>${esc(t(p))}</p>`).join('')}${s.quote ? `<blockquote class="quote">${esc(t(s.quote))}</blockquote>` : ''}${s.inline ? `<div class="sec__inline">${mediaHTML(s.inline, addToGallery(s.inline), { inRow: true })}</div>` : ''}</div>
       </section>
       ${s.media && s.media.length ? rowsHTML(s.media) : ''}`).join('');
 
