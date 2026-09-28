@@ -57,8 +57,16 @@
     if (tall.length) rows.push(tall);
     return rows;
   }
+  /* Imágenes marcadas full: fila propia, en el orden en que aparecen */
+  function layoutAll(list) {
+    const rows = []; let buf = [];
+    const flush = () => { if (buf.length) rows.push(...layout(buf)); buf = []; };
+    list.forEach(m => { if (m.full) { flush(); rows.push([m]); } else buf.push(m); });
+    flush();
+    return rows;
+  }
   function rowsHTML(list) {
-    return layout(list).map(row => `<div class="mgrid mgrid--${Math.min(row.length, 3)}">${row.map(m => mediaHTML(m, addToGallery(m), { single: row.length === 1, inRow: row.length > 1 && row.some(x => !isTall(x)) })).join('')}</div>`).join('');
+    return layoutAll(list).map(row => `<div class="mgrid mgrid--${Math.min(row.length, 3)}">${row.map(m => mediaHTML(m, addToGallery(m), { single: row.length === 1, inRow: row.length > 1 && row.some(x => !isTall(x)) })).join('')}</div>`).join('');
   }
   function addToGallery(m, meta) { gallery.push(Object.assign({}, m, meta || {})); return gallery.length - 1; }
 

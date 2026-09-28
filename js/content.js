@@ -87,14 +87,22 @@ window.FELIX = window.FELIX || {};
           p: [T('Design a system to train drivers across Scania Latin America. The premise: most of them were not familiar with technology, so every piece had to be easy to read and accessible. There was no previous material — the system started from zero.', 'Diseñar un sistema para capacitar a conductores de Scania Latinoamérica. La premisa: la mayoría no estaba familiarizada con la tecnología, así que cada pieza tenía que ser fácil de leer y accesible. No había material previo: el sistema empezó de cero.')],
           media: [I('scania-serie-s.jpg', 1600, 900, 'Infographic of the Scania S series cabin interior'), I('scania-motores.jpg', 1600, 900, 'Infographic about Scania engines with a photographic render')] },
         { h: T('The constraint', 'La restricción'),
-          p: [T('Scania’s international brand manual is very strict: Scania Sans and Scania Bold, fixed colour and logo rules, almost no creative freedom. So the design work had to happen in reading order, hierarchy and illustration.', 'El manual de marca internacional de Scania es muy exigente: Scania Sans y Scania Bold, reglas fijas de color y logo, casi sin libertad creativa. Así que el diseño tenía que estar en el orden de lectura, la jerarquía y la ilustración.')],
-          media: [I('scania-consumo.jpg', 1600, 900, 'Infographic about fuel consumption and cabin aerodynamics')] },
+          p: [T('Scania’s international brand manual is very strict: Scania Sans and Scania Bold, fixed colour and logo rules, almost no creative freedom. So the design work had to happen in reading order, hierarchy and illustration.', 'El manual de marca internacional de Scania es muy exigente: Scania Sans y Scania Bold, reglas fijas de color y logo, casi sin libertad creativa. Así que el diseño tenía que estar en el orden de lectura, la jerarquía y la ilustración.')] },
         { h: T('What I did', 'Qué hice'),
           p: [T('I designed the visual proposal and drew the illustrations for the infographics — fine-line technical drawings and more illustrative ones — for cabins, engines, gearboxes and fuel consumption. Everything was built in Figma as templates for desktop and mobile.', 'Diseñé la propuesta visual y dibujé las ilustraciones de las infografías — de línea fina técnica y otras más ilustrativas — para cabinas, motores, cajas de cambios y consumo de combustible. Todo se armó en Figma como plantillas para computadora y celular.')],
           media: [
             I('infographic-serie-p.jpg', 768, 432, 'Line-drawing infographic explaining a truck cabin'),
-            I('infographic-transmission.jpg', 768, 432, 'Infographic of a truck gearbox'),
-            I('infographic-engine.jpg', 820, 633, 'Technical render of a truck engine used in an infographic')
+            I('infographic-transmission.jpg', 768, 432, 'Infographic of a truck gearbox')
+          ] },
+        { h: T('Scania in Argentina', 'Scania en Argentina'),
+          p: [T('A second series of plates tells the brand’s story in Argentina: from the L111 “Yacaré”, made in the country from 1976, to the current Super generation — told through its models, its engines and the place these trucks earned in popular culture.', 'Una segunda serie de placas cuenta la historia de la marca en Argentina: del L111 “Yacaré”, fabricado en el país desde 1976, a la actual generación Super — a través de sus modelos, sus motores y el lugar que estos camiones se ganaron en la cultura popular.'),
+             T('Same strict brand manual, different register: less technical sheet, more memory of the road.', 'El mismo manual de marca estricto, otro registro: menos ficha técnica y más memoria de la ruta.')],
+          media: [
+            Object.assign(I('scania-evolucion.jpg', 1600, 900, 'Timeline of five orange Scania fronts from the 1976 L111 to the 2020 R480', T('Evolution: Scania in Argentina', 'Evolución: Scania en Argentina')), { full: true }),
+            Object.assign(I('scania-motorizacion.jpg', 1600, 900, 'The DS11 engine of 1976 next to the 13-litre Super engine of 2020', T('Engine evolution', 'La evolución del motor')), { full: true }),
+            Object.assign(I('scania-113-diego.jpg', 1600, 900, 'Blue Scania 113H front next to the story of Diego Maradona’s truck', T('Diego’s 113', 'El 113 de Diego')), { full: true }),
+            I('scania-l111-rutas.jpg', 1600, 900, 'Orange Scania L111 Yacaré next to text about its cultural legacy', T('The L111 on Argentine roads', 'El L111 en las rutas argentinas')),
+            I('scania-las-acacias.jpg', 1600, 900, 'Las Acacias film poster and stills with the orange Scania L111', T('From the road to the cinema', 'Del camino al cine'))
           ] }
       ],
       result: {
